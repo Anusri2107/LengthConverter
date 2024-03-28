@@ -1,0 +1,59 @@
+*{
+	margin: 0px;
+	padding: 0px;
+    background-color: bisque;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+
+#container{
+	width: 50%;
+	padding:10px;
+	text-align:center;
+	position:absolute;
+    top: 25%;
+    left: 25%;
+	background-color:rgb(121, 183, 28);
+    border-radius: 10px;
+}
+
+.container-title{
+	text-align: center;
+	margin: 10px 0px auto 0;
+	font-size: 40px;
+	color:white;
+    font-size: 30px;
+    background: transparent;
+}
+
+input{
+	width:170px;
+	height: 25px;
+	text-align: center;
+	border: 2px solid rgb(245, 241, 220);
+	margin:10px;
+	font-size:20px;
+	border-radius:5px;
+    background-color: white;
+}
+
+#input{
+	margin: 10px;
+}
+
+#inputType,#resultType{
+	width: 175px;
+	height:35px;
+	margin: 10px;
+	color: maroon;
+	border: 2px solid maroon;
+	font-size:15px;
+	font-weight:bold;
+	background-color:rgb(245, 241, 220);
+	border-radius:5px;
+}
+
+span{
+	color:white;
+    background: transparent;
+	font-size:15px;
+}

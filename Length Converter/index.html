@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Length Converter</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+Infant&display=swap" rel="stylesheet"/>
+  </head>
+  <body>
+    <div class="box">
+      <div id="container">
+        <h1 class="container-title">Length Converter</h1>
+        <select id="inputType">
+          <option value="meter">Meter</option>
+          <option value="kilometer">Kilometer</option>
+          <option value="Centimeter">Centimeter</option>
+        </select>
+
+        <select id="resultType">
+          <option value="meter">Meter</option>
+          <option value="kilometer">Kilometer</option>
+          <option value="Centimeter">Centimeter</option>
+        </select>
+        <br />
+
+        <input type="text" placeholder="Input" id="input" />
+        <span>=</span>
+        <input type="text" placeholder="Result" id="result" />
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
